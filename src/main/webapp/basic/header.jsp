@@ -7,6 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	
+	<header>
+		<a><img alt="" src="../HatchfulExport-All/logo.png" class="img"></a>
+		<p><a href="">계정</a></p>
+		<p><a href="">장바구니</a></p>
+	</header>
 </body>
 </html>
