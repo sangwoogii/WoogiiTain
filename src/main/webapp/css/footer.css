@@ -1,2 +1,23 @@
 @charset "UTF-8";
 
+/* footer (푸터) css */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #ddd;
+}
+
+footer {
+	   position: relative;	
+       bottom: 0;
+       background-color: blue;
+       color: white;
+       width: 100%;
+       height: 70px;
+       line-height: 70px;
+       text-align: center;
+       
+       /* 헤더와 푸터는 헤더의 css를 그대로 복사해서 푸터로 고치고 top을 bottom으로 고친다. */
+ }

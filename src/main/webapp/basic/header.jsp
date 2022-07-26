@@ -9,15 +9,18 @@
 </head>
 <body>
 	<header>
-		<a><img alt="" src="../HatchfulExport-All/logo.png" class="img"></a>
-			<ul>
-				<li>
-					<a href="">계정</a>
-					<a href="">장바구니</a>
-				</li>
-			</ul>
+	
+		<div class="space">
 			
-		<p>정산기 실기 position 참고</p>
+		</div>
+		
+		<div class="header_box">
+			<a><img alt="" src="../HatchfulExport-All/logo.png" class="img"></a>
+			
+			<a href="" class="sign">계정</a>
+			<a href="">장바구니</a>
+		</div>
+			
 	</header>
 </body>
 </html>
