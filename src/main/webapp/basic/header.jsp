@@ -9,16 +9,11 @@
 </head>
 <body>
 	<header>
-	
-		<div class="space">
-			
-		</div>
-		
 		<div class="header_box">
-			<a><img alt="" src="../HatchfulExport-All/logo.png" class="img"></a>
+			<a href=""><img alt="" src="../HatchfulExport-All/logo.png" class="img"></a>
 			
 			<a href="" class="sign">계정</a>
-			<a href="">장바구니</a>
+			<a href="" class="market">장바구니</a>
 		</div>
 			
 	</header>

@@ -21,23 +21,24 @@
 		</div>
 		
 		<div class="content">
-			<p class="cap1">지금 놓치면 100% 후회합니다 !</p>
-			<p class="cap2">이거 마시고 몸짱되자 ?</p>
-			<p class="cap3">당신의 몸을 힘들게 하라</p>
-			
+			<p class="cap1">너 애인 없지 ?</p>
+			<p class="cap2">이거 먹으면</p>
+			<p class="cap3">애인생기는데 ㅎ</p>
 		</div>
 		
 		<div class="kind">
-			<p class="kind_1">단백질 보충제</p>
-			<p class="kind_2">식품&간식</p>
-			<p class="kind_3">비타민</p>
-			<p class="kind_4">아미노산</p>
-			<p class="kind_5">체중관리</p>
+			<p class="kind_1"><a href="">단백질 보충제</a></p>
+			<p class="kind_2"><a href="">식품&간식</a></p>
+			<p class="kind_3"><a href="">비타민</a></p>
+			<p class="kind_4"><a href="">아미노산</a></p>
+			<p class="kind_5"><a href="">체중관리</a></p>
 		</div>
 		
 		<div class="this_tain">
-			<p>이 달의 프로틴 (마이프로틴 홈페이지 참고)</p>
-			<a><img alt="" src="../img/pic.png"></a>
+			<p>이 달의 프로틴</p>
+			<a href=""><img alt="" src="../img/pic.png"></a>
+			<a href=""><img alt="" src="../img/img2.webp"></a>
+			<a href=""><img alt="" src="../img/img3.webp"></a>
 		</div>
 		
 	</section>
