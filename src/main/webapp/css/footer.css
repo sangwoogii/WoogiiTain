@@ -6,18 +6,56 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	background-color: #ddd;
 }
+
 
 footer {
 	   position: relative;	
        bottom: 0;
-       background-color: blue;
-       color: white;
+       color: black;
        width: 100%;
        height: 70px;
        line-height: 70px;
        text-align: center;
-       
-       /* 헤더와 푸터는 헤더의 css를 그대로 복사해서 푸터로 고치고 top을 bottom으로 고친다. */
- }
+       margin-top: 200px;
+}
+
+.footer_img {
+	display: flex;
+	width: 300px;
+	height: 100px;
+} 
+ 
+.png_1 {
+	margin-left: 150px;
+}
+
+/* .png_2 {
+	margin-left: 100px;
+} */
+
+.png_3 {
+	margin-left: 200px;
+}
+
+.png_4 {
+	margin-left: 200px;
+}
+ 
+footer h2 {
+	position: absolute;
+	left: 150px;
+	font-size: 50px;
+	font-weight: bold;
+	color: #aaa;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+
+footer p {
+	margin-top: 50px;
+	margin-left: 100px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #bbb;
+}

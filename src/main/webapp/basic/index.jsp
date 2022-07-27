@@ -34,8 +34,11 @@
 			<p class="kind_5"><a href="">체중관리</a></p>
 		</div>
 		
-		<div class="this_tain">
+		<div class="this">
 			<p>이 달의 프로틴</p>
+		</div>
+		
+		<div class="this_tain">
 			<a href=""><img alt="" src="../img/pic.png"></a>
 			<a href=""><img alt="" src="../img/img2.webp"></a>
 			<a href=""><img alt="" src="../img/img3.webp"></a>
@@ -43,6 +46,6 @@
 		
 	</section>
 	
-	<%-- <jsp:include page="footer.jsp"></jsp:include> --%>
+	<jsp:include page="footer.jsp"></jsp:include>
 </body>
 </html>

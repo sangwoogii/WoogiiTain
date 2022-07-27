@@ -108,8 +108,8 @@ video {
 .kind {
 	display: flex;
 	justify-content: space-between;
-	margin-left: 50px;
-	margin-top: 100px;
+	margin-left: 20px;
+	margin-top: 150px;
 }
 
 .kind a {
@@ -173,21 +173,27 @@ video {
 
 
 /* 이 달의 프로틴 */
-.this_tain {
-	margin-top: 200px;
-}
 
-.this_tain p {
+.this p {
+	margin-top: 200px;
 	font-size: 30px;
 	font-weight: bold;
 	color: green;
 	text-align: center;
 }
 
+
+.this_tain {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+
 .this_tain img {
 	margin-top: 50px;
 	width: 400px;
 	height: 200px;
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-left: 70px;
+	margin-right: 70px;
 }

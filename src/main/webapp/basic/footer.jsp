@@ -9,13 +9,19 @@
 </head>
 <body>
 	<footer>
-		<p>마이프로틴 팔로우하기 참고</p>
+		<div class="footer_img">
+			<img alt="" src="../img/img1.png" class="png_1">
+			<img alt="" src="../img/img2.png" class="png_2">
+			<img alt="" src="../img/img3.png" class="png_3">
+			<img alt="" src="../img/img4.svg" class="png_4">
+		</div>
+		
 		<h2>T H G</h2>
+		
 		<p>
 			2022 WoogiiTain.co.kr &copy; The Hut.com Limited. a company registered in England and wales
 			(company number 05016010) whose registered address is Voyager House. Chicago Avenue.
-		</p>			
-		<p>정보처리산업기사 실기 파일 position 참고</p>
+		</p>
 	</footer>
 </body>
 </html>
