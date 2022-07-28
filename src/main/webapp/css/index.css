@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
 /* 전체 */
-* {
+/* * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	background-color: #eee;
-}
+} */
 
 
 /* 동영상 */
@@ -17,16 +17,21 @@ body {
 }
 
 .bg {
-  width: 1800px;
+  width: 1500px;
   height: 500px;
   overflow: hidden;
   margin: 0px auto;
   position: relative;
   margin-top: 150px;
 }
+
 video {
-  width: 1800px;
+  width: 1500px;
+  margin-top: 80px;
+  position: absolute;
+  margin-left: 30px;
 }
+
 /* .text {
   position: absolute;
   width: 100%;
@@ -62,9 +67,9 @@ video {
 .kind {
 	display: flex;
 	justify-content: space-between;
-	margin-left: 20px;
 	margin-top: 130px;
 }
+
 
 .kind a {
 	text-decoration: none;
@@ -83,6 +88,7 @@ video {
 	font-weight: bold;
 	text-align: center;
 	background-color: green;
+	margin-left: 20px;
 }
 
 .kind_2 {
@@ -93,6 +99,7 @@ video {
 	font-weight: bold;
 	text-align: center;
 	background-color: green;
+	margin-left: 20px;
 }
 
 .kind_3 {
@@ -103,6 +110,7 @@ video {
 	font-weight: bold;
 	text-align: center;
 	background-color: green;
+	margin-left: 20px;
 }
 
 .kind_4 {
@@ -113,6 +121,7 @@ video {
 	font-weight: bold;
 	text-align: center;
 	background-color: green;
+	margin-left: 20px;
 }
 
 .kind_5 {
@@ -123,6 +132,39 @@ video {
 	font-weight: bold;
 	text-align: center;
 	background-color: green;
+	margin-left: 20px;
+}
+
+.total_tain {
+	display: flex;
+	justify-content: space-between;
+}
+
+.tain_kind_1 {
+	width: 250px;
+	height: 300px;
+	margin-left: 20px;
+	/* display: none; */
+}
+.tain_kind_2 {
+	width: 250px;
+	height: 300px;
+	/* display: none; */
+}
+.tain_kind_3 {
+	width: 250px;
+	height: 300px;
+	/* display: none; */
+}
+.tain_kind_4 {
+	width: 250px;
+	height: 300px;
+	/* display: none; */
+}
+.tain_kind_5 {
+	width: 250px;
+	height: 300px;
+	/* display: none; */
 }
 
 
@@ -132,9 +174,8 @@ video {
 /* 운동 유혹말 */
 .content {
 	display: flex;
-	margin-top: 100px;
-	margin-left: 220px;
-	/* justify-content: space-between; */
+	justify-content: space-between;
+	margin-top: 120px;
 }
 
 .cap1 {
@@ -159,7 +200,7 @@ video {
 	box-shadow: 3px 3px;
 	font-weight: bold;
 	text-align: center;
-	margin-left: 150px;
+	/* margin-left: 150px; */
 }
 
 .cap3 {
@@ -172,7 +213,7 @@ video {
 	box-shadow: 3px 3px;
 	font-weight: bold;
 	text-align: center;
-	margin-left: 150px;
+	/* margin-left: 150px; */
 }
 
 
@@ -202,6 +243,6 @@ video {
 	margin-top: 50px;
 	width: 400px;
 	height: 200px;
-	margin-left: 70px;
+	/* margin-left: 70px; */
 	margin-right: 70px;
 }
