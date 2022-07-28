@@ -9,13 +9,52 @@
 </head>
 <body>
 	<header>
-		<div class="header_box">
+		<div id="header_box">
 			<a href=""><img alt="" src="../HatchfulExport-All/logo.png" class="img"></a>
 			
-			<a href="" class="sign">계정</a>
-			<a href="" class="market">장바구니</a>
+			<!-- <img alt="계정 이미지" src="../img/user.png" class="user"> -->
+			<p id="sign">계정</p>
+			
+			<!-- <img alt="장바구니 이미지" src="../img/basket.png" class="basket"> -->
+			<p id="market"><a href="">장바구니</a></p>
 		</div>
+		
+		<div id="item">
+			<a href=""><button class="log">로그인</button></a>
+			<a href=""><button class="join">회원가입</button></a>
+			<button class="cancel" value="취소">취소</button>
+		</div>
+		
+		
 			
 	</header>
+	
+	<script type="text/javascript">
+		let modal = document.querySelector("#sign");
+		let check = false;
+		
+		modal.addEventListener("mouseover", function() {
+			if (check == false) {
+				document.querySelector("#item").style.display = "block";
+				check = true;
+				
+			} else {
+				modal.addEventListener("mouseout", function() {})
+				document.querySelector("#item").style.display = "none";
+				check = false;
+			}
+		});
+		
+		
+		let delay = document.querySelector(".cancel");
+		let both = document.querySelector("#item");
+		
+		function close_btn() {
+			both.style.display = "none";
+		}
+		
+		delay.addEventListener("click", close_btn);
+		
+	</script>
 </body>
 </html>

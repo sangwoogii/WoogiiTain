@@ -20,12 +20,6 @@
 		  </div> -->
 		</div>
 		
-		<div class="content">
-			<p class="cap1">너 애인 없지 ?</p>
-			<p class="cap2">이거 먹으면</p>
-			<p class="cap3">애인생기는데 ㅎ</p>
-		</div>
-		
 		<div class="kind">
 			<p class="kind_1"><a href="">단백질 보충제</a></p>
 			<p class="kind_2"><a href="">식품&간식</a></p>
@@ -33,6 +27,14 @@
 			<p class="kind_4"><a href="">아미노산</a></p>
 			<p class="kind_5"><a href="">체중관리</a></p>
 		</div>
+		
+		
+		<div class="content">
+			<p class="cap1">너 애인 없지 ?</p>
+			<p class="cap2">이거 먹으면</p>
+			<p class="cap3">애인생기는데 ㅎ</p>
+		</div>
+		
 		
 		<div class="this">
 			<p>이 달의 프로틴</p>

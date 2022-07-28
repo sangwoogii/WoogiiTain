@@ -17,7 +17,7 @@ body {
 }
 
 .bg {
-  width: 100%;
+  width: 1800px;
   height: 500px;
   overflow: hidden;
   margin: 0px auto;
@@ -25,7 +25,7 @@ body {
   margin-top: 150px;
 }
 video {
-  width: 100%;
+  width: 1800px;
 }
 /* .text {
   position: absolute;
@@ -58,12 +58,83 @@ video {
 }
 
 
+/* 보충제 종류 5가지 */
+.kind {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 20px;
+	margin-top: 130px;
+}
+
+.kind a {
+	text-decoration: none;
+	background-color: green;
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+}
+
+
+.kind_1 {
+	width: 250px;
+	border: 1px solid gray;
+	height: 120px;
+	line-height: 120px;
+	font-weight: bold;
+	text-align: center;
+	background-color: green;
+}
+
+.kind_2 {
+	width: 250px;
+	border: 1px solid gray;
+	height: 120px;
+	line-height: 120px;
+	font-weight: bold;
+	text-align: center;
+	background-color: green;
+}
+
+.kind_3 {
+	width: 250px;
+	border: 1px solid gray;
+	height: 120px;
+	line-height: 120px;
+	font-weight: bold;
+	text-align: center;
+	background-color: green;
+}
+
+.kind_4 {
+	width: 250px;
+	border: 1px solid gray;
+	height: 120px;
+	line-height: 120px;
+	font-weight: bold;
+	text-align: center;
+	background-color: green;
+}
+
+.kind_5 {
+	width: 250px;
+	border: 1px solid gray;
+	height: 120px;
+	line-height: 120px;
+	font-weight: bold;
+	text-align: center;
+	background-color: green;
+}
+
+
+
+
+
 /* 운동 유혹말 */
 .content {
 	display: flex;
 	margin-top: 100px;
-	margin-left: 50px;
-	justify-content: space-between;
+	margin-left: 220px;
+	/* justify-content: space-between; */
 }
 
 .cap1 {
@@ -88,6 +159,7 @@ video {
 	box-shadow: 3px 3px;
 	font-weight: bold;
 	text-align: center;
+	margin-left: 150px;
 }
 
 .cap3 {
@@ -100,76 +172,12 @@ video {
 	box-shadow: 3px 3px;
 	font-weight: bold;
 	text-align: center;
+	margin-left: 150px;
 }
 
 
 
-/* 보충제 종류 5가지 */
-.kind {
-	display: flex;
-	justify-content: space-between;
-	margin-left: 20px;
-	margin-top: 150px;
-}
 
-.kind a {
-	text-decoration: none;
-	background-color: green;
-	font-size: 25px;
-	font-weight: bold;
-	color: white;
-}
-
-
-.kind_1 {
-	width: 200px;
-	border: 1px solid gray;
-	height: 100px;
-	line-height: 100px;
-	font-weight: bold;
-	text-align: center;
-	background-color: green;
-}
-
-.kind_2 {
-	width: 200px;
-	border: 1px solid gray;
-	height: 100px;
-	line-height: 100px;
-	font-weight: bold;
-	text-align: center;
-	background-color: green;
-}
-
-.kind_3 {
-	width: 200px;
-	border: 1px solid gray;
-	height: 100px;
-	line-height: 100px;
-	font-weight: bold;
-	text-align: center;
-	background-color: green;
-}
-
-.kind_4 {
-	width: 200px;
-	border: 1px solid gray;
-	height: 100px;
-	line-height: 100px;
-	font-weight: bold;
-	text-align: center;
-	background-color: green;
-}
-
-.kind_5 {
-	width: 200px;
-	border: 1px solid gray;
-	height: 100px;
-	line-height: 100px;
-	font-weight: bold;
-	text-align: center;
-	background-color: green;
-}
 
 
 /* 이 달의 프로틴 */

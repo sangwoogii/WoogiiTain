@@ -16,12 +16,16 @@
 			<img alt="" src="../img/img4.svg" class="png_4">
 		</div>
 		
-		<h2>T H G</h2>
+		<div class="footer_tag">
+			<h2>T H G</h2>
+			
+			<p>
+				2022 WoogiiTain.co.kr &copy; The Hut.com Limited.
+				Portfolio made by Sang Uk Park. I look forward to your kind cooperation.
+		</div>
 		
-		<p>
-			2022 WoogiiTain.co.kr &copy; The Hut.com Limited. a company registered in England and wales
-			(company number 05016010) whose registered address is Voyager House. Chicago Avenue.
-		</p>
+		
+		
 	</footer>
 </body>
 </html>
