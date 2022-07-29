@@ -66,6 +66,12 @@ video {
   }
 }
 
+.buy {
+	text-align: center;
+	margin-top: 25px;
+	color:rgb(27, 180, 53);
+}
+
 
 /* 보충제 종류 5가지 */
 .kind {

@@ -20,16 +20,17 @@ header {
 }
 
 
-/* #header_box {
+#header_box {
 	display: flex;
 	height: 110px;
 	line-height: 110px;
-} */
+	margin-left: 100px;
+}
 
 
 .img {
 	width: 500px;
-	height: 150px;
+	height: 250px;
 	margin-top: 20px;
 	position: absolute;
 	top: 0;
@@ -39,7 +40,7 @@ header {
 
 
 #sign {
-	position: absolute;
+	/* position: absolute; */
 	color: black;
 	font-size: 17px;
 	font-weight: bold;
@@ -51,6 +52,7 @@ header {
 	font-size: 17px;
 	font-weight: bold;
 	margin-top: 25px;
+	margin-left: 120px;
 }
 
 #market a {
@@ -105,4 +107,5 @@ header {
 	width: 70px;
 	height: 30px;
 	border-radius: 10px;
+	margin-left: 70%;
 }

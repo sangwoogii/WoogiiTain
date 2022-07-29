@@ -24,23 +24,27 @@
 			<div>
 				<p class="kind_1"><a href="">단백질 보충제</a></p>
 				<img alt="단백질 보충제" src="../img/tain1.webp" class="tain_kind_1">
-				<p>프로틴 사러가기 ↑ 클릭 </p>
+				<p class="buy">사러가기 ↑ 클릭 </p>
 			</div>
 			<div>
 				<p class="kind_2"><a href="">식품&간식</a></p>
 				<img alt="식품&간식" src="../img/tain4.webp" class="tain_kind_2">
+				<p class="buy">사러가기 ↑ 클릭 </p>
 			</div>
 			<div>
 				<p class="kind_3"><a href="">비타민</a></p>
 				<img alt="비타민" src="../img/tain3.webp" class="tain_kind_3">
+				<p class="buy">사러가기 ↑ 클릭 </p>
 			</div>
 			<div>
 				<p class="kind_4"><a href="">아미노산</a></p>
 				<img alt="아미노산" src="../img/tain2.webp" class="tain_kind_4">
+				<p class="buy">사러가기 ↑ 클릭 </p>
 			</div>
 			<div>
 				<p class="kind_5"><a href="">체중관리</a></p>
 				<img alt="체중관리" src="../img/tain5.webp" class="tain_kind_5">
+				<p class="buy">사러가기 ↑ 클릭 </p>
 			</div>
 		</div>
 		
