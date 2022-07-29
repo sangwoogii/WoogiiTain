@@ -12,12 +12,17 @@
 /* 동영상 */
 body {
   padding: 0px;
-  margin: 0px;
   height: auto;
 }
 
+section {
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+}
+
 .bg {
-  width: 1500px;
+  width: 100%;
   height: 500px;
   overflow: hidden;
   margin: 0px auto;
@@ -26,10 +31,9 @@ body {
 }
 
 video {
-  width: 1500px;
+  width: 100%;
   margin-top: 80px;
   position: absolute;
-  margin-left: 30px;
 }
 
 /* .text {
@@ -88,7 +92,7 @@ video {
 	font-weight: bold;
 	text-align: center;
 	background-color: green;
-	margin-left: 20px;
+	margin-left: 10px;
 }
 
 .kind_2 {
@@ -99,7 +103,6 @@ video {
 	font-weight: bold;
 	text-align: center;
 	background-color: green;
-	margin-left: 20px;
 }
 
 .kind_3 {
@@ -110,7 +113,6 @@ video {
 	font-weight: bold;
 	text-align: center;
 	background-color: green;
-	margin-left: 20px;
 }
 
 .kind_4 {
@@ -121,7 +123,6 @@ video {
 	font-weight: bold;
 	text-align: center;
 	background-color: green;
-	margin-left: 20px;
 }
 
 .kind_5 {
@@ -132,39 +133,46 @@ video {
 	font-weight: bold;
 	text-align: center;
 	background-color: green;
-	margin-left: 20px;
+	margin-right: 10px;
 }
 
 .total_tain {
+	position: relative;
 	display: flex;
 	justify-content: space-between;
 }
 
 .tain_kind_1 {
+	position: absolute;
 	width: 250px;
 	height: 300px;
-	margin-left: 20px;
-	/* display: none; */
+	display: none;
+	margin-left: 10px;
 }
 .tain_kind_2 {
+	position: absolute;
 	width: 250px;
 	height: 300px;
-	/* display: none; */
+	display: none;
 }
 .tain_kind_3 {
+	position: absolute;
 	width: 250px;
 	height: 300px;
-	/* display: none; */
+	display: none;
 }
 .tain_kind_4 {
+	position: absolute;
 	width: 250px;
 	height: 300px;
-	/* display: none; */
+	display: none;
 }
 .tain_kind_5 {
+	position: absolute;
 	width: 250px;
 	height: 300px;
-	/* display: none; */
+	display: none;
+	margin-right: 10px;
 }
 
 
@@ -188,6 +196,7 @@ video {
 	box-shadow: 3px 3px;
 	font-weight: bold;
 	text-align: center;
+	margin-left: 30px;
 }
 
 .cap2 {
@@ -200,7 +209,6 @@ video {
 	box-shadow: 3px 3px;
 	font-weight: bold;
 	text-align: center;
-	/* margin-left: 150px; */
 }
 
 .cap3 {
@@ -213,7 +221,7 @@ video {
 	box-shadow: 3px 3px;
 	font-weight: bold;
 	text-align: center;
-	/* margin-left: 150px; */
+	margin-right: 30px;
 }
 
 
@@ -241,8 +249,36 @@ video {
 
 .this_tain img {
 	margin-top: 50px;
-	width: 400px;
-	height: 200px;
-	/* margin-left: 70px; */
-	margin-right: 70px;
+	width: 300px;
+	height: 300px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.best_tain_1 p {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.best_tain_2 p {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.best_tain_3 p {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.best_tain_4 p {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 15px;
 }

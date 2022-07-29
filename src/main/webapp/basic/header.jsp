@@ -9,20 +9,16 @@
 </head>
 <body>
 	<header>
-		<div id="header_box">
+		<div id="header_box">		
 			<a href=""><img alt="" src="../HatchfulExport-All/logo.png" class="img"></a>
-			
-			<!-- <img alt="계정 이미지" src="../img/user.png" class="user"> -->
 			<p id="sign">계정</p>
-			
-			<!-- <img alt="장바구니 이미지" src="../img/basket.png" class="basket"> -->
 			<p id="market"><a href="">장바구니</a></p>
 		</div>
 		
 		<div id="item">
 			<a href=""><button class="log">로그인</button></a>
 			<a href=""><button class="join">회원가입</button></a>
-			<button class="cancel" value="취소">취소</button>
+			<button class="cancel" value="닫기">닫기</button>
 		</div>
 		
 		
