@@ -63,7 +63,7 @@
                 <div>
                     <h3 class="join_title"><label for="email">이메일<span class="optional"></span></label></h3>
                     <span class="box int_email">
-                        <input type="text" id="email" class="int" maxlength="100" placeholder="선택입력">
+                        <input type="text" id="email" class="int" maxlength="100">
                     </span>
                     <span class="error_next_box">이메일 주소를 다시 확인해주세요.</span>    
                 </div>
@@ -76,10 +76,15 @@
                     </span>
                     <span class="error_next_box">우편번호를 다시 확인해주세요.</span>    
                 </div> -->
-                우편번호 : <input type="text" name="zip" style="width:80px; height:26px;" />
-<button type="button" style="width:60px; height:32px;" onclick="openZipSearch()">검색</button><br>
-주소 : <input type="text" name="addr1" style="width:300px; height:30px;" readonly /><br>
-상세 : <input type="text" name="addr2" style="width:300px; height:30px;" />
+                
+                <div class="address">
+                	<span class="addr_total">
+				                  우편번호 : <input type="text" class="addr_no_1" name="zip" />
+						<button type="button" class="addr_no" style="width:60px; height:32px;" onclick="openZipSearch()">검색</button><br>
+						주소 : <input type="text" name="addr1" class="addr_home" /><br>
+						상세 : <input type="text" name="addr2" class="addr_detail" />
+					</span>
+				</div>
 
 
                 <!-- PHONE -->

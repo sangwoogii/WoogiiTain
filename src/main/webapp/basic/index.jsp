@@ -64,11 +64,12 @@
 		<div class="this_tain">
 			<div class="best_tain_1">
 				<a href=""><img alt="베스트 프로틴 1" src="../img/pic.png" class="product_1"></a>
+				
 				<div class="impact">
 					<p>제품 이름 : 임팩트 웨이 프로틴</p>
 					<p>가격 : \23,900 (250g)</p>
 					<p>맛 : (선택가능)</p>
-					<p>바로 구매 (사진 클릭)</p>
+					<p><a href="">바로 구매</a></p>
 				</div>
 			</div>
 			<div class="best_tain_2">
@@ -77,7 +78,7 @@
 					<p>제품 이름 : 프로틴 브라우니</p>
 					<p>가격 : \32,700 (15 x 75g)</p>
 					<p>맛 : 초코 & 화이트 초코</p>
-					<p>바로 구매 (사진 클릭)</p>
+					<p><a href="">바로 구매</a></p>
 				</div>
 			</div>
 			<div class="best_tain_3">
@@ -85,7 +86,7 @@
 				<div class="alphaman">
 					<p>제품 이름 : 알파맨 멀티비타민</p>
 					<p>가격 : \24,900 (120 타블렛)</p>
-					<p>바로 구매 (사진 클릭)</p>
+					<p><a href="">바로 구매</a></p>
 				</div>
 			</div>
 			<div class="best_tain_4">
@@ -94,7 +95,7 @@
 					<p>골든 6 레이어 프로틴바</p>
 					<p>가격 : \35,800 (15 x 60g)</p>
 					<p>맛 : 골드 (상세 맛은 상세페이지 참고)</p>
-					<p>바로 구매 (사진 클릭)</p>
+					<p><a href="">바로 구매</a></p>
 				</div>
 			</div>
 		</div>
@@ -193,24 +194,9 @@
 		});
 	
 	
-	/* ----- 베스트 프로틴 js ----- */
+	/* ------------------------------------------ */
 	
-	/* let order_1 = document.querySelector(".product_1");
-	let order_check_1 = false;
 	
-	order_1.addEventListener("mouseover", function() {
-		if (order_check_1 == false) {
-			document.querySelector(".impact").style.display = "block";
-			order_check_1 = true;
-			}
-		});
-		
-	order_1.addEventListener("mouseout", function() {
-		if (order_check_1 == true) {
-			document.querySelector(".impact").style.display = "none";
-			order_check_1 = false;
-			}
-		}); */
 		
 	</script>
 </body>

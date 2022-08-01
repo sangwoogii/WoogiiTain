@@ -58,7 +58,7 @@ h3 {
     height: 51px;
     border: solid 1px #dadada;
     padding: 10px 14px 10px 14px;
-    box-sizing: border-box;
+    box-sizing: border-box;	
     background: #fff;
     position: relative;
 }
@@ -89,6 +89,45 @@ input {
     padding-right: 40px;
 }
 
+
+.address {
+	margin-top: 30px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+
+.addr_no_1 {
+	border: solid 1px #dadada;
+    padding: 10px 14px 10px 14px;
+    width:250px;
+    height:40px;
+    box-sizing: border-box;
+}
+
+
+.addr_no {
+	margin-left: 50px;
+}
+
+.addr_home {
+	margin-top: 30px;
+	margin-left: 20px;
+	border: solid 1px #dadada;
+    padding: 10px 14px 10px 14px;
+    width:360px;
+    height:30px;
+}
+
+.addr_detail {
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	border: solid 1px #dadada;
+    padding: 10px 14px 10px 14px;
+    width:360px;
+    height:30px;
+}
 
 
 
