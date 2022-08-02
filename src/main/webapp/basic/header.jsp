@@ -16,7 +16,7 @@
 		</div>
 		
 		<div id="item">
-			<a href=""><button class="log">로그인</button></a>
+			<a href="../loginFolder/login.jsp"><button class="log">로그인</button></a>
 			<a href=""><button class="join">회원가입</button></a>
 			<button class="cancel" value="닫기">닫기</button>
 		</div>
