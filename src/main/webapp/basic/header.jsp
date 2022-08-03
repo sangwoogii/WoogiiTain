@@ -10,7 +10,7 @@
 <body>
 	<header>
 		<div id="header_box">		
-			<a href=""><img alt="" src="../HatchfulExport-All/logo.png" class="img"></a>
+			<a href="./index.jsp"><img alt="" src="../HatchfulExport-All/logo.png" class="img"></a>
 			<p id="sign">계정</p>
 			<p id="market"><a href="">장바구니</a></p>
 		</div>
