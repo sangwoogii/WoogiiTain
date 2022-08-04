@@ -21,6 +21,8 @@
 			<button class="cancel" value="닫기">닫기</button>
 		</div>
 		
+		<p>안녕하세요</p>
+		
 		
 			
 	</header>
