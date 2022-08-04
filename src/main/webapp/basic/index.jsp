@@ -22,27 +22,27 @@
 		
 		<div class="kind">
 			<div>
-				<p class="kind_1"><a href="">단백질 보충제</a></p>
+				<p class="kind_1"><a href="../program/prod_list.jsp">단백질 보충제</a></p>
 				<img alt="단백질 보충제" src="../img/tain1.webp" class="tain_kind_1">
 				<p class="buy">사러가기 ↑ 클릭 </p>
 			</div>
 			<div>
-				<p class="kind_2"><a href="">식품&간식</a></p>
+				<p class="kind_2"><a href="../program/prod_list.jsp">식품&간식</a></p>
 				<img alt="식품&간식" src="../img/tain4.webp" class="tain_kind_2">
 				<p class="buy">사러가기 ↑ 클릭 </p>
 			</div>
 			<div>
-				<p class="kind_3"><a href="">비타민</a></p>
+				<p class="kind_3"><a href="../program/prod_list.jsp">비타민</a></p>
 				<img alt="비타민" src="../img/tain3.webp" class="tain_kind_3">
 				<p class="buy">사러가기 ↑ 클릭 </p>
 			</div>
 			<div>
-				<p class="kind_4"><a href="">아미노산</a></p>
+				<p class="kind_4"><a href="../program/prod_list.jsp">아미노산</a></p>
 				<img alt="아미노산" src="../img/tain2.webp" class="tain_kind_4">
 				<p class="buy">사러가기 ↑ 클릭 </p>
 			</div>
 			<div>
-				<p class="kind_5"><a href="">체중관리</a></p>
+				<p class="kind_5"><a href="../program/prod_list.jsp">체중관리</a></p>
 				<img alt="체중관리" src="../img/tain5.webp" class="tain_kind_5">
 				<p class="buy">사러가기 ↑ 클릭 </p>
 			</div>
@@ -63,8 +63,9 @@
 		
 		<div class="this_tain">
 			<div class="best_tain_1">
-				<a href=""><img alt="베스트 프로틴 1" src="../img/pic.png" class="product_1"></a>
-				
+					<img alt="베스트 프로틴 1" src="../img/pic.png" class="product_1">
+					
+				<button>자세히보기</button>	
 				<div class="impact">
 					<p>제품 이름 : 임팩트 웨이 프로틴</p>
 					<p>가격 : \23,900 (250g)</p>
@@ -72,8 +73,9 @@
 					<p><a href="">바로 구매</a></p>
 				</div>
 			</div>
+			
 			<div class="best_tain_2">
-				<a href=""><img alt="베스트 프로틴 2" src="../img/img2.webp" class="product_2"></a>
+				<img alt="베스트 프로틴 2" src="../img/img2.webp" class="product_2">
 				<div class="brownie">
 					<p>제품 이름 : 프로틴 브라우니</p>
 					<p>가격 : \32,700 (15 x 75g)</p>
@@ -81,16 +83,18 @@
 					<p><a href="">바로 구매</a></p>
 				</div>
 			</div>
+			
 			<div class="best_tain_3">
-				<a href=""><img alt="베스트 프로틴 3" src="../img/img3.webp" class="product_3"></a>
+				<img alt="베스트 프로틴 3" src="../img/img3.webp" class="product_3">
 				<div class="alphaman">
 					<p>제품 이름 : 알파맨 멀티비타민</p>
 					<p>가격 : \24,900 (120 타블렛)</p>
 					<p><a href="">바로 구매</a></p>
 				</div>
 			</div>
+			
 			<div class="best_tain_4">
-				<a href=""><img alt="베스트 프로틴 4" src="../img/pro_3.webp" class="product_4"></a>
+				<img alt="베스트 프로틴 4" src="../img/pro_3.webp" class="product_4">
 				<div class="golden">
 					<p>골든 6 레이어 프로틴바</p>
 					<p>가격 : \35,800 (15 x 60g)</p>
@@ -196,6 +200,22 @@
 	
 	/* ------------------------------------------ */
 	
+	// 모달 열기
+		function modalOpen() {
+		    document.querySelector('.impact').style.display = 'block';
+		    document.querySelector('.impact').style.display = 'block';
+		}
+		
+		// 모달 끄기
+		function modalClose() {
+		    document.querySelector('.modal_wrap').style.display = 'none';
+		    document.querySelector('.modal_background').style.display = 'none';
+		}
+		
+		
+		//버튼 클릭리스너 달기
+		document.querySelector('#modal_btn').addEventListener('click', modalOpen);
+		document.querySelector('.modal_close').addEventListener('click', modalClose);
 	
 		
 	</script>

@@ -20,7 +20,7 @@
 			
 			<div class="social">
 				<p class="more">더 많은 정보 얻어가기</p>
-				<a href=""><img alt="instagram" src="../img/instagram.png" class="insta"></a>
+				<a href="https://www.instagam.com/woogion__"><img alt="instagram" src="../img/instagram.png" class="insta"></a>
 				<a href=""><img alt="facebook" src="../img/facebook.png" class="face"></a>
 			</div>	
 		</div>

@@ -5,25 +5,55 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<link rel="stylesheet" href="../css/login.css" />
 </head>
 <body>
-	<form id="form1" runat="server">
-    <div class="container">
-        <div class="main">
-            <h2>
-                Javascript Login Form Validation</h2>
-            <form id="form_id" method="post" name="myform">
-            <label>
-                User Name :</label>
-            <input type="text" name="username" id="username" />
-            <br><br>
-            <label>
-                Password :</label>
-            <input type="password" name="password" id="password" />
-            <input type="button" value="Login" id="submit" onclick="validate();" />
-            </form>
+
+	<%-- <jsp:include page="../basic/header.jsp" /> --%>
+
+    <header>
+        <h2>Login</h2>
+    </header>
+
+    <form action="" method="POST" name="frm">
+
+
+        <div class="input-box">
+            <input id="username" type="text" name="username" placeholder="아이디">
+            <label for="username">아이디</label>
         </div>
-    </div>
+
+        <div class="input-box">
+            <input id="password" type="password" name="password" placeholder="비밀번호">
+            <label for="password">비밀번호</label>
+        </div>
+        
+        <div id="forgot"><a href="../program/search_info.jsp">아이디 / 비밀번호 찾기</a></div>
+        
+        <!-- <input type="submit" value="로그인"> -->
+        <div class="login"><button value="로그인" class="log_btn" onclick="validate();">로그인</button></div>
+
     </form>
+
 </body>
+
+<script type="text/javascript">
+function validate() {
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+    if (username == null || username == "") {
+        alert("아이디를 입력하세요.");
+        return false;
+    }
+    if (password == null || password == "") {
+        alert("비밀번호를 입력하세요.");
+        return false;
+    }
+    
+    alert('성공적으로 로그인되었습니다 !');
+    
+    location.href="../basic/index.jsp";
+    
+} 
+</script>
 </html>

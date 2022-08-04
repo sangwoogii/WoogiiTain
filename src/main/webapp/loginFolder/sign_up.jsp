@@ -10,7 +10,7 @@
 <body>
    <!-- header -->
    <div id="header">
-       <a href=""><img src="" id="logo">메인로고</a>
+       <a href="../basic/index.jsp"><img src="" id="logo">메인로고</a>
    </div>
 
 	<form name="frm" method="post" action="">
@@ -68,14 +68,6 @@
 		               <span class="error_next_box">이메일 주소를 다시 확인해주세요.</span>    
 		           </div>
 		           
-		           <!-- ADDRESS -->
-		           <!-- <div>
-		               <h3 class="addrno"><label for="addrno"><span class="optional">우편번호</span></label></h3>
-		               <span class="box int_email">
-		                   <input type="text" id="email" class="int" maxlength="100" placeholder="선택입력">
-		               </span>
-		               <span class="error_next_box">우편번호를 다시 확인해주세요.</span>    
-		           </div> -->
 		           
          <div id="address">
            	<span id="addr_total">
@@ -83,7 +75,7 @@
 				<button type="button" id="addr_no" style="width:60px; height:32px;" onclick="sample6_execDaumPostcode();">검색</button><br>
 				주소 : <input type="text" name="addr1" id="addr_home" /><br>
 				상세 : <input type="text" name="addr2" id="addr_detail" />
-				참고항목 : <input type="text" id="sample6_extraAddress" placeholder="생략 가능">
+				참고항목 : <input type="text" id="sample6_extraAddress">
 			</span>
 		 </div>
 		
@@ -132,6 +124,7 @@
     <script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
     
     <script type="text/javascript">
+    
     /*변수 선언*/
     var id = document.querySelector('#id');
 
