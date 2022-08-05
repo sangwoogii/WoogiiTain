@@ -63,49 +63,80 @@
 		
 		<div class="this_tain">
 			<div class="best_tain_1">
-					<img alt="베스트 프로틴 1" src="../img/pic.png" class="product_1">
+				<img alt="베스트 프로틴 1" src="../img/pic.png" class="product_1">
+				
 					
-				<button>자세히보기</button>	
-				<div class="impact">
-					<p>제품 이름 : 임팩트 웨이 프로틴</p>
-					<p>가격 : \23,900 (250g)</p>
-					<p>맛 : (선택가능)</p>
-					<p><a href="">바로 구매</a></p>
+				<button type="button" class="detail_show">자세히보기</button>	
+				
+				<div class="modal_wrap">
+				    <div class="modal_close">
+					    <img class="closeImg" src="../img/close_btn.webp" alt="x이미지">
+				    </div>
+				    <div class="text">
+					        	<p>제품 이름 : 임팩트 웨이 프로틴</p>
+								<p>가격 : \23,900 (250g)</p>
+								<p>맛 : (선택가능)</p>
+								<p><a href="../program/order.jsp">바로 구매</a></p>
+					    </div>
 				</div>
 			</div>
 			
 			<div class="best_tain_2">
 				<img alt="베스트 프로틴 2" src="../img/img2.webp" class="product_2">
-				<div class="brownie">
-					<p>제품 이름 : 프로틴 브라우니</p>
-					<p>가격 : \32,700 (15 x 75g)</p>
-					<p>맛 : 초코 & 화이트 초코</p>
-					<p><a href="">바로 구매</a></p>
+				
+				<button type="button" class="detail_show">자세히보기</button>	
+				
+				<div class="modal_wrap">
+				    <div class="modal_close">
+					    <img class="closeImg" src="../img/close_btn.webp" alt="x이미지">
+				    </div>
+				    <div class="text">
+					        	<p>제품 이름 : 임팩트 웨이 프로틴</p>
+								<p>가격 : \23,900 (250g)</p>
+								<p>맛 : (선택가능)</p>
+								<p><a href="../program/order.jsp">바로 구매</a></p>
+					    </div>
 				</div>
 			</div>
 			
 			<div class="best_tain_3">
 				<img alt="베스트 프로틴 3" src="../img/img3.webp" class="product_3">
-				<div class="alphaman">
-					<p>제품 이름 : 알파맨 멀티비타민</p>
-					<p>가격 : \24,900 (120 타블렛)</p>
-					<p><a href="">바로 구매</a></p>
+				
+				<button type="button" class="detail_show">자세히보기</button>	
+				
+				<div class="modal_wrap">
+				    <div class="modal_close">
+					    <img class="closeImg" src="../img/close_btn.webp" alt="x이미지">
+				    </div>
+				    <div class="text">
+					        	<p>제품 이름 : 임팩트 웨이 프로틴</p>
+								<p>가격 : \23,900 (250g)</p>
+								<p>맛 : (선택가능)</p>
+								<p><a href="../program/order.jsp">바로 구매</a></p>
+					    </div>
 				</div>
 			</div>
 			
 			<div class="best_tain_4">
 				<img alt="베스트 프로틴 4" src="../img/pro_3.webp" class="product_4">
-				<div class="golden">
-					<p>골든 6 레이어 프로틴바</p>
-					<p>가격 : \35,800 (15 x 60g)</p>
-					<p>맛 : 골드 (상세 맛은 상세페이지 참고)</p>
-					<p><a href="">바로 구매</a></p>
-					
+				
+				<button type="button" class="detail_show">자세히보기</button>	
+				
+				<div class="modal_wrap">
+				    <div class="modal_close">
+					    <img class="closeImg" src="../img/close_btn.webp" alt="x이미지">
+				    </div>
+				    <div class="text">
+					        	<p>제품 이름 : 임팩트 웨이 프로틴</p>
+								<p>가격 : \23,900 (250g)</p>
+								<p>맛 : (선택가능)</p>
+								<p><a href="../program/order.jsp">바로 구매</a></p>
+					    </div>
 				</div>
 			</div>
 		</div>
 			
-		
+		<div class="modal_background"></div>
 	</section>
 	
 	<jsp:include page="footer.jsp"></jsp:include>
@@ -201,24 +232,25 @@
 	
 	/* ------------------------------------------ */
 	
-	// 모달 열기
-		function modalOpen() {
-		    document.querySelector('.impact').style.display = 'block';
-		    document.querySelector('.impact').style.display = 'block';
-		}
-		
-		// 모달 끄기
-		function modalClose() {
-		    document.querySelector('.modal_wrap').style.display = 'none';
-		    document.querySelector('.modal_background').style.display = 'none';
-		}
-		
-		
-		//버튼 클릭리스너 달기
-		document.querySelector('#modal_btn').addEventListener('click', modalOpen);
-		document.querySelector('.modal_close').addEventListener('click', modalClose);
+		// 모달 열기
+			function modalOpen() {
+			    document.querySelector('.modal_wrap').style.display = 'block';
+			    document.querySelector('.modal_background').style.display = 'block';
+			}
 	
-		
+		// 모달 끄기
+			function modalClose() {
+			    document.querySelector('.modal_wrap').style.display = 'none';
+			    document.querySelector('.modal_background').style.display = 'none';
+			}
+	
+	
+		//버튼 클릭리스너 달기
+			document.querySelector('.detail_show').addEventListener('click', modalOpen);
+			document.querySelector('.modal_close').addEventListener('click', modalClose);
+	
+	
 	</script>
+	
 </body>
 </html>
