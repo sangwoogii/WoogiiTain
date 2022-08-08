@@ -11,14 +11,14 @@
 	<header>
 		<div id="header_box">		
 			<a href="./index.jsp"><img alt="" src="../HatchfulExport-All/logo.png" class="img"></a>
-			<p id="sign">계정</p>
-			<p id="market"><a href="../program/basket.jsp">장바구니</a></p>
+			<p id="sign">sign</p>
+			<p id="market"><a href="../program/basket.jsp">basket</a></p>
 		</div>
 		
 		<div id="item">
-			<a href="../loginFolder/login.jsp"><button class="log">로그인</button></a>
-			<a href="../loginFolder/sign_up.jsp"><button class="join">회원가입</button></a>
-			<button class="cancel" value="닫기">닫기</button>
+			<a href="../loginFolder/login.jsp"><button class="log">login</button></a>
+			<a href="../loginFolder/sign_up.jsp"><button class="join">sign_up</button></a>
+			<button class="cancel" value="닫기">close</button>
 		</div>
 		
 		

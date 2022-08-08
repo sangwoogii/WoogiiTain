@@ -4,7 +4,7 @@
 <html lnag="ko">
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Sign up</title>
 <link rel="stylesheet" href="../css/sign_up.css">
 </head>
 <body>
