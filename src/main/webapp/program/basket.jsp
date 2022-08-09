@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%
-String[] img ={"apple1.jpg", "apple2.jpg", "apple3.jpg", "banana1.jpg", "banana2.jpg", "banana3.jpg", "pear1.jpg", "pear2.jpg", "pear3.jpg"};
+String[] img ={"proteico_1.webp", "apple2.jpg", "apple3.jpg", "banana1.jpg", "banana2.jpg", "banana3.jpg", "pear1.jpg", "pear2.jpg", "pear3.jpg"};
 String[] name = {"사과1", "사과2", "사과3", "바나나1", "바나나2", "바나나3", "배1", "배2", "배3"};
 String[] price = {"1,500", "1,600", "1,700", "3,000", "3,500", "4,000", "5,000", "6,000", "7,000"};
 %>
@@ -52,6 +52,7 @@ String[] price = {"1,500", "1,600", "1,700", "3,000", "3,500", "4,000", "5,000",
 							//out.println("<input type='button' value='장바구니 담기' onclick='fnCart(\"" + name[i] + "\", \"" + price[i] + "\")' />");
 							//두 줄로 쓰기, 닫는 큰 따옴표와 괄호 옆의 띄어쓰기 필수
 							out.println("<input type='button' value='장바구니 담기' ");
+							out.println("<input type='button' value='구매하기' ");
 							out.println("onclick='fnCart(\"" + name[i] + "\", \"" + price[i] + "\")' />");
 						out.println("</td>");
 					out.println("</tr>");
