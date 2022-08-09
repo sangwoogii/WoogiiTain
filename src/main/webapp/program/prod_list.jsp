@@ -40,7 +40,7 @@
 		
 
         <div class="product-list">
-            <a href="#" class="product">
+            <a href="./basket.jsp" class="product">
                 <img src="../img/proteico_1.webp" width="225">
                 <div class="product-name">
                     Impact Weight Protain
@@ -51,7 +51,7 @@
             </a>
 
             
-            <a href="#" class="product">
+            <a href="./basket.jsp" class="product">
                 <img src="../img/proteico_2.webp" width="225" height="225px">
                 <div class="product-name">
                     Clear Weight Isolate
@@ -62,7 +62,7 @@
             </a>
 
             
-            <a href="#" class="product">
+            <a href="./basket.jsp" class="product">
                 <img src="../img/proteico_3.webp" width="225" height="225px">
                 <div class="product-name">
                     Soy Protain Isolate
@@ -73,7 +73,7 @@
             </a>
 
             
-            <a href="#" class="product">
+            <a href="./basket.jsp" class="product">
                 <img src="../img/bar_1.webp" width="225" height="225px">
                 <div class="product-name">
                     Protain Brownie
@@ -84,7 +84,7 @@
             </a>
 
             
-            <a href="#" class="product">
+            <a href="./basket.jsp" class="product">
                 <img src="../img/bar_2.webp" width="225" height="225px">
                 <div class="product-name">
                     Natural walnut
@@ -95,7 +95,7 @@
             </a>
 
             
-            <a href="#" class="product">
+            <a href="./basket.jsp" class="product">
                 <img src="../img/bar_3.webp" width="225" height="225px">
                 <div class="product-name">
                     Double Dow Brownie
@@ -105,7 +105,7 @@
                 </div>
             </a>
 
-            <a href="#" class="product">
+            <a href="./basket.jsp" class="product">
                 <img src="../img/vita_1.webp" width="225" height="225px">
                 <div class="product-name">
                     Multi VitaminJelly
@@ -115,7 +115,7 @@
                 </div>
             </a>
             
-            <a href="#" class="product">
+            <a href="./basket.jsp" class="product">
                 <img src="../img/vita_2.webp" width="225" height="225px">
                 <div class="product-name">
                     Alphaman MultiVitamin
@@ -125,7 +125,7 @@
                 </div>
             </a>
             
-            <a href="#" class="product">
+            <a href="./basket.jsp" class="product">
                 <img src="../img/vita_3.webp" width="225" height="225px">
                 <div class="product-name">
                     Essential OMEGA-3
@@ -136,7 +136,7 @@
             </a>
             <div class="clearfix"></div>
             
-            <a href="#" class="product">
+            <a href="./basket.jsp" class="product">
                 <img src="../img/aminosan_1.webp" width="225" height="225px">
                 <div class="product-name">
                     Essential BCAA 2:1:1
@@ -147,7 +147,7 @@
             </a>
             <div class="clearfix"></div>
             
-            <a href="#" class="product">
+            <a href="./basket.jsp" class="product">
                 <img src="../img/aminosan_2.webp" width="225" height="225px">
                 <div class="product-name">
                     L-Glutamine Amino
@@ -158,7 +158,7 @@
             </a>
             <div class="clearfix"></div>
             
-            <a href="#" class="product">
+            <a href="./basket.jsp" class="product">
                 <img src="../img/aminosan_3.webp" width="225" height="225px">
                 <div class="product-name">
                     Impact EAA
@@ -169,7 +169,7 @@
             </a>
             <div class="clearfix"></div>
             
-            <a href="#" class="product">
+            <a href="./basket.jsp" class="product">
                 <img src="../img/diet_1.webp" width="225" height="225px">
                 <div class="product-name">
                     Lipid Binder
@@ -180,7 +180,7 @@
             </a>
             <div class="clearfix"></div>
             
-            <a href="#" class="product">
+            <a href="./basket.jsp" class="product">
                 <img src="../img/diet_2.webp" width="225" height="225px">
                 <div class="product-name">
                     Carb Metaboliser
@@ -191,7 +191,7 @@
             </a>
             <div class="clearfix"></div>
             
-            <a href="#" class="product">
+            <a href="./basket.jsp" class="product">
                 <img src="../img/diet_3.webp" width="225" height="225px">
                 <div class="product-name">
                     Impact Diet Weight
