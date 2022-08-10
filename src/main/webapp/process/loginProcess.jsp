@@ -14,21 +14,21 @@
 	String oracleId = application.getInitParameter("OracleId");
 	String oraclePw = application.getInitParameter("OraclePw");
 	
-	//5.MemberDAO를 통해 DB에 접근하여 CURD수행.
+	//5.MemberDAO를 통해 DB에 접근하여 CRUD수행.
 	memberDAO dao = new memberDAO(oracleDriver, oracleUrl, oracleId, oraclePw);
 	
 	//8.getMemberDTO()메서드를 호출
-	memberDTO memberDTO = dao.getMemberDTO(userId, userPwd);
+	memberDTO memberdto = dao.getMemberDTO(userId, userPwd);
 	
 	//15. 데이터베이스 연결 해제
 	dao.close();
 	
 	//16. 로그인 성공 여부에 따른 처리
-	if (memberDTO.getId() != null){ //dto객체에 아이디가 있으면 로그인 성공
+	if (memberdto.getId() != null){ //dto객체에 아이디가 있으면 로그인 성공
 		
 		//17. 로그인에 성공하면 session영역에 아이디와 이름을 저장
-		session.setAttribute("UserId", memberDTO.getId());
-		session.setAttribute("UserPwd", memberDTO.getPwd());
+		session.setAttribute("username", memberdto.getId());
+		session.setAttribute("password", memberdto.getPwd());
 		
 		//18. 로그인 페이지로 이동
 		response.sendRedirect("../loginFolder/login.jsp");

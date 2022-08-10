@@ -3,7 +3,7 @@
     pageEncoding="UTF-8"%>
 
 <%
-	if (session.getAttribute("UserId") == null) {
+	if (session.getAttribute("username") == null) {
 		JSFunction.alertLocation("로그인 후 이용해주세요!", "./login.jsp", out);
 		
 		return;

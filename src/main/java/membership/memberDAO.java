@@ -1,5 +1,10 @@
 package membership;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
 import common.JDBConnect;
 
 public class memberDAO extends JDBConnect{
@@ -22,15 +27,25 @@ public class memberDAO extends JDBConnect{
 		
 		//11.아이디와 패스워드가 member테이블에 있는지 확인하기위해
 		//쿼리문 작성
+		
+		Connection conn = null;
+		PreparedStatement ptmt = null;
+		ResultSet rs = null;
+		
 		String query = "SELECT * FROM member WHERE id=? AND pwd=?";
 		
 		try {
 			
+			  Class.forName("oracle.jdbc.driver.OracleDriver");
+			
+			  String url = null; conn = DriverManager.getConnection(url, uid, upass);
+			 
+			
 			//12. 동적쿼리문 작성
-			psmt = con.prepareStatement(query);
+			psmt = conn.prepareStatement(query);
 			psmt.setString(1, uid); //첫번째 인파라미터에 값 설정
 			psmt.setString(2, upass); //두번째 인파라미터에 값 설정
-			rs=psmt.executeQuery(); //쿼리 실행
+			rs = psmt.executeQuery(); //쿼리 실행
 			
 			//13. 결과값 반환
 			if (rs.next()) { //rs에 다음값이 있으면
@@ -41,8 +56,9 @@ public class memberDAO extends JDBConnect{
 				dto.setEmail(rs.getString("email"));
 				dto.setAddress_num(rs.getInt("address_num"));
 				dto.setAddress(rs.getString("address"));
-				dto.setPhone(rs.getString("phone"));				
+				dto.setPhone(rs.getString("phone"));
 				dto.setRegidate(rs.getDate("regidate"));
+				 
 			}
 			
 		} catch(Exception e) {
