@@ -44,7 +44,7 @@
 	<!-- 계정ID -->
 	<context-param>
 		<param-name>OracleId</param-name>
-		<param-value>green</param-value>
+		<param-value>woogii</param-value>
 	</context-param>
 	
 	<!-- 계정pw -->

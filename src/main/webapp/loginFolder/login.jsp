@@ -14,8 +14,14 @@
     <header>
         <h2>Login</h2>
     </header>
+    
+    <%	
+		//0. 로그인 상태를 확인
+		if (session.getAttribute("UserId") == null) {
+			//로그아웃 상태
+	%>
 
-    <form action="loginProcess.jsp" method="po" name="frm">
+    <form action="loginProcess.jsp" method="post" name="frm">
         <div class="input-box">
             <input id="username" type="text" name="username" placeholder="아이디">
             <label for="username">아이디</label>
@@ -31,6 +37,19 @@
         <!-- <input type="submit" value="로그인"> -->
         <div class="login"><button value="로그인" class="log_btn" onclick="validate();">로그인</button></div>
     </form>
+    
+    <%
+		} else {
+			//19. 로그인 상태
+	%>
+		<%=session.getAttribute("UserName") %> 님, 반갑습니다!<br>
+		<a href="Logout.jsp">[로그아웃]</a>
+		
+		
+	<%		
+			
+		}
+	%>
     
 </body>
 
