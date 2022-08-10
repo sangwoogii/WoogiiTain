@@ -15,9 +15,7 @@
         <h2>Login</h2>
     </header>
 
-    <form action="" method="POST" name="frm">
-
-
+    <form action="loginProcess.jsp" method="po" name="frm">
         <div class="input-box">
             <input id="username" type="text" name="username" placeholder="아이디">
             <label for="username">아이디</label>
@@ -32,9 +30,8 @@
         
         <!-- <input type="submit" value="로그인"> -->
         <div class="login"><button value="로그인" class="log_btn" onclick="validate();">로그인</button></div>
-
     </form>
-
+    
 </body>
 
 <script type="text/javascript">
