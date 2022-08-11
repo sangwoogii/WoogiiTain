@@ -71,7 +71,7 @@ function validate() {
         return false;
     }
     
-    alert("성공적으로 로그인되었습니다 !");
+    /* alert("성공적으로 로그인되었습니다 !"); */
     
     location.href="../basic/index.jsp";
     

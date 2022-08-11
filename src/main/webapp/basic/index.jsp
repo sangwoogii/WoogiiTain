@@ -43,7 +43,7 @@
 			</div>
 			<div>
 				<p class="kind_5"><a href="../program/prod_list.jsp">체중관리</a></p>
-				<img alt="체중관리" src="../img/tain5.webp" class="tain_kind_5">
+				<img alt="다이어트" src="../img/tain5.webp" class="tain_kind_5">
 				<p class="buy">사러가기 ↑ 클릭 </p>
 			</div>
 		</div>
@@ -248,6 +248,12 @@
 		//버튼 클릭리스너 달기
 			document.querySelector('.detail_show').addEventListener('click', modalOpen);
 			document.querySelector('.modal_close').addEventListener('click', modalClose);
+			
+			
+			/* function modalOpen() {
+			    document.querySelector('.modal_wrap').style.display = 'block';
+			    document.querySelector('.modal_background').style.display = 'block';
+			} */
 	
 	
 	</script>
