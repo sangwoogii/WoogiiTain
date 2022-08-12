@@ -48,7 +48,7 @@
 			//19. 로그인 상태
 	%>
 		<%=session.getAttribute("username") %> 님, 반갑습니다!<br>
-		<a href="logout.jsp">[로그아웃]</a>
+		<a href="./logout.jsp">[로그아웃]</a>
 		
 		
 	<%		

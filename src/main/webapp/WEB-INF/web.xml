@@ -49,7 +49,7 @@
 	
 	<!-- 계정pw -->
 	<context-param>
-		<param-name>OraclePw</param-name>
+		<param-name>OraclePwd</param-name>
 		<param-value>1234</param-value>
 	</context-param>
 	

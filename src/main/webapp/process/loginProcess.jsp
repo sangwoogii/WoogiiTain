@@ -12,7 +12,7 @@
 	String oracleDriver = application.getInitParameter("OracleDriver");
 	String oracleUrl = application.getInitParameter("OracleUrl");
 	String oracleId = application.getInitParameter("OracleId");
-	String oraclePw = application.getInitParameter("OraclePw");
+	String oraclePw = application.getInitParameter("OraclePwd");
 	
 	//5.MemberDAO를 통해 DB에 접근하여 CRUD수행.
 	memberDAO dao = new memberDAO(oracleDriver, oracleUrl, oracleId, oraclePw);
